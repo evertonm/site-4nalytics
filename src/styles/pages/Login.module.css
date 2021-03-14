@@ -1,0 +1,63 @@
+.loginContainer {
+    display: flex;
+    flex: 1;
+    height: 100vh;
+    background: var(--blue);
+    padding-top: 5rem;
+}
+
+.loginGradient img{
+  position: absolute;
+}
+
+.loginSide{
+    padding: 120px 0 0 120px;
+}
+
+.loginSide h1 {
+    font: 600 2.5rem 'Inter', sans-serif;
+    color: white;
+    margin-top: 80px;
+}
+
+.githubInfo {
+    margin: 20px 0 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.githubInfo span {
+    color: rgb(178,185,255);
+    font: 500 1rem 'Inter', sans-serif;
+    width: 70%;
+
+    margin-left: 15px;
+
+}
+
+.inputContainer {
+    height: 80px;
+    width: 340px;
+    background: linear-gradient(90deg, var(--blue-dark) 0%, rgba(73, 83, 184, 0.2) 100%); border-radius: 5px 0px 0px 5px;
+    margin: 40px 0 0 -40px;
+}
+
+.inputContainer input{
+    background: transparent;
+    border: none;
+    height: 100%;
+    width: 100%;
+    padding-left: 20px;
+    color: rgb(178,185,255);
+    font: 400 1rem 'Inter', sans-serif;
+}
+
+.inputContainer input:focus {
+    border: none;
+    outline: none;
+}
+
+.inputContainer input::placeholder {
+    color: rgb(178,185,255);
+    font: 400 1rem 'Inter', sans-serif;
+}

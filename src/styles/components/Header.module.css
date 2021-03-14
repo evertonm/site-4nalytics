@@ -1,0 +1,25 @@
+.headerContainer {
+    display: flex;
+    background: linear-gradient(to right, #4834d4, #341f97);
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+.logoImage {
+    height: 50px;
+    width: 150px;
+    margin: 5px;
+}
+
+.headerItemsContainer {
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    flex: 1;
+    margin-right: 120px;
+}  
+
+.headerItemsContainer a {
+    padding-left: 25px;
+}

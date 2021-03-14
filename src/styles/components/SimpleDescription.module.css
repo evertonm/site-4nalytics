@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background: url(../../../public/banner-bg.png) left center no-repeat;
+    background-color: #22195b;
+    color: white;
+    padding: 30px;
+}
+
+.descriptionContainer {
+    display: flex;
+    color: black;
+    justify-content:flex-start;
+    align-items:inherit;
+    flex-direction: column;
+    flex: 1;
+
+    color: white;
+    
+}
+
+.contactButton {
+    border: 1px solid transparent;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 15px 24px;
+    border-radius: 30px;
+    background-color: #fff;
+    color: #21146a;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    margin-top: 30px;
+    outline: none;
+
+}
+
+.contactButton:hover {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}

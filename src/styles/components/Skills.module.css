@@ -1,0 +1,18 @@
+.skillContainer {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center
+}
+
+.skillDescription {
+    width: 50%;
+
+}
+
+.skillDescription span {
+    font-size: 14px;
+    
+}
