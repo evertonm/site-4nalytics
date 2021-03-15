@@ -1,11 +1,14 @@
 .container {
     display: flex;
     width: 100%;
+    flex-wrap: nowrap;
     align-items: center;
     background: url(../../../public/banner-bg.png) left center no-repeat;
     background-color: #22195b;
     color: white;
     padding: 30px;
+    height: 800px;
+
 }
 
 .descriptionContainer {
@@ -15,7 +18,8 @@
     align-items:inherit;
     flex-direction: column;
     flex: 1;
-
+    font-size: 2rem;
+    margin-left: 50px;
     color: white;
     
 }

@@ -6,8 +6,8 @@ export function SimpleDescription() {
         <div className={styles.container}>
             <img src="/computers.png" alt="Computers" />
             <div className={styles.descriptionContainer}>
-                <h1>Advanced Software made simple</h1>
-                <span>Lorem impsum</span>
+                <h1> Evite os Insights oculto nos dados </h1>
+                <span>Descubra o poder de tomar decisões baseada em dados!</span>
                 <button type="button" className={styles.contactButton}>Entre em contato</button>
             </div>
         </div>

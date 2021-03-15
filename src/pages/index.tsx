@@ -1,20 +1,6 @@
-import { CompletedChallenges } from '../components/CompletedChallenges';
-import { Countdown } from '../components/Countdown';
-import { ExperienceBar } from '../components/ExperienceBar';
-import { Profile } from '../components/Profile';
-
-import Head from 'next/head';
-
-import styles from '../styles/pages/Home.module.css';
-import { ChallengeBox } from '../components/ChallengeBox';
 import { Header } from '../components/Header';
 import { SimpleDescription } from '../components/SimpleDescription';
 import { Skills } from '../components/Skills';
-
-
-import { CountdownProvider } from '../contexts/CountdownContext';
-import { ChallengesProvider } from '../contexts/ChallengeContext';
-
 
 import { GetServerSideProps } from 'next';
 

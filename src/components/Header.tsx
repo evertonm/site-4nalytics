@@ -5,7 +5,7 @@ export function Header() {
     return (
         <div className={styles.headerContainer}>
             <div>
-                <img src="/logo.jpeg" alt="Logo" className={styles.logoImage}/>
+                <img src="/logo_white.png" alt="Logo" className={styles.logoImage}/>
             </div>
             <div className={styles.headerItemsContainer}>
                 <a href="">Home</a>

@@ -8,9 +8,37 @@
 }
 
 .cardContainer {
+    display: flex;
+    flex-direction: column;
     width: 300px;
-    height: 150px;
+    height: 200px;
     background: grey;
     margin: 5px 20px 5px 20px;
     background: #faf9ff;
+    padding: 25px;
+    align-items: flex-start;
+    justify-content: center;
+    transition: all 0.6s ease;
+    border-radius: 5px;
+}
+.cardContainer h1 {
+    font-size: 20px;
+    text-align: start;
+    margin-bottom: 10px;
+}
+.cardContainer span {
+    font-size: 13px;
+    text-align: start;
+}
+.cardContainer:hover{
+    background: white;
+    -webkit-box-shadow: 2px 5px 9px -3px rgba(73, 72, 72, 0.69);
+    -moz-box-shadow: 2px 5px 9px -3px rgba(73, 72, 72, 0.69);
+    box-shadow: 2px 5px 9px -3px rgba(73, 72, 72, 0.69);
+}
+
+.iconCard {
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #22195b !important;
 }

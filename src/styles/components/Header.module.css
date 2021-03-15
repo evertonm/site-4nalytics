@@ -4,6 +4,7 @@
     color: white;
     position: fixed;
     width: 100%;
+    font-size: 1.5rem;
 }
 
 .logoImage {
@@ -11,6 +12,43 @@
     width: 150px;
     margin: 5px;
 }
+
+@media(max-width: 1080px) {
+    .headerContainer {
+        display: flex;
+        background: linear-gradient(to right, #4834d4, #341f97);
+        color: white;
+        position: fixed;
+        width: 100%;
+        font-size: 2.5rem;
+    }
+
+    .logoImage {
+        height: 100px;
+        width: 300px;
+        margin: 5px;
+    }
+}
+
+@media(max-width: 720px) {
+    .headerContainer {
+        display: flex;
+        background: linear-gradient(to right, #4834d4, #341f97);
+        color: white;
+        position: fixed;
+        width: 100%;
+        font-size: 2.5rem;
+    }
+
+
+    .logoImage {
+        height: 100px;
+        width: 300px;
+        margin: 5px;
+    }
+
+}
+
 
 .headerItemsContainer {
     display: flex;
