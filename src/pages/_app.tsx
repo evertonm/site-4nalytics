@@ -1,4 +1,6 @@
 import '../styles/global.css';
+// add bootstrap css 
+import 'bootstrap/dist/css/bootstrap.css'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'

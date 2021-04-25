@@ -1,14 +1,26 @@
 .container {
     display: flex;
     width: 100%;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
     background: url(../../../public/banner-bg.png) left center no-repeat;
     background-color: #22195b;
     color: white;
     padding: 30px;
     height: 800px;
+}
 
+
+
+      
+.title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.description {
+    text-align: center;
+    margin-top: 10px;
 }
 
 .descriptionContainer {
@@ -19,14 +31,13 @@
     flex-direction: column;
     flex: 1;
     font-size: 2rem;
-    margin-left: 50px;
     color: white;
     
 }
 
 .contactButton {
     border: 1px solid transparent;
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: 500;
     padding: 15px 24px;
     border-radius: 30px;
@@ -43,4 +54,19 @@
     background: transparent;
     border: 1px solid white;
     color: white;
+}
+
+@media(max-width: 1080px) {
+    .container {
+        height: 1020px;            
+    }
+
+    .contactButton {     
+        font-size: 2rem;
+        margin-top: 6rem;
+    }
+
+    .imageComputer {
+        margin-top: 100px;
+    }
 }
