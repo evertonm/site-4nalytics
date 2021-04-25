@@ -1,5 +1,4 @@
 import styles from '../styles/components/CardsSkill.module.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useEffect, useState } from 'react';
 
 interface InfoCardInterface {
