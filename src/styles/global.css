@@ -49,11 +49,17 @@ button {
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
+    color: inherit !important;
+    text-decoration: none !important;
 }
 
 main {
-    padding-top: 60px;
+    padding-top: 70px;
     height: 200vh;
+}
+
+@media(max-width: 1080px) { 
+    main {
+        padding-top: 100px;
+    }  
 }
