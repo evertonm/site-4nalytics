@@ -12,6 +12,7 @@ export function Header() {
                 <a href="">Blog</a>
                 <a href="">Contato</a>
             </div>
+            
         </div>
 
 
