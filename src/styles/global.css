@@ -55,7 +55,7 @@ a {
 
 main {
     padding-top: 70px;
-    height: 200vh;
+    padding-bottom: 50px;
 }
 
 @media(max-width: 1080px) { 
