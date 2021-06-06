@@ -59,9 +59,6 @@
 }
 
 @media(max-width: 1080px) {
-    .container {
-        height: 1020px;            
-    }
 
     .contactButton {     
         font-size: 2rem;
@@ -69,7 +66,6 @@
     }
 
     .imageComputer {
-        margin-top: 100px;
         width: 100%;
     }
 }

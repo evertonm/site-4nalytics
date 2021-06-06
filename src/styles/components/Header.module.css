@@ -6,7 +6,9 @@
     width: 100%;
     font-size: 1.5rem;
     margin-bottom: 25px;
+    z-index: 999;
 }
+
 
 .logoImage {
     height: 50px;
