@@ -7,7 +7,8 @@
     background-color: #22195b;
     color: white;
     padding: 30px;
-    height: 800px;
+    min-height: 800px;
+    max-height: 1020px;
     margin-top: -10px;
 }
       

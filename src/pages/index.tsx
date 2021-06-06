@@ -13,9 +13,10 @@ interface HomeProps {
 export default function Home(props: HomeProps) {
 
   return (
-    <>
-      <Header />
+    <>  
+      <Header />      
       <main>
+
         <SimpleDescription />
         <Skills />
       </main>
