@@ -7,7 +7,6 @@
     font-size: 2rem;
     margin-bottom: 25px;
     z-index: 999;
-    padding-top: 10px;
 }
 
 .containerIconMenu {
@@ -30,6 +29,7 @@
     font-size: 1.5rem;
     z-index: 999;
     display: none;
+    padding-top: 10px;
 }
 
 .sideMenuItemsContent {
