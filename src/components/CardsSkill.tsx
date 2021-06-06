@@ -5,6 +5,7 @@ interface InfoCardInterface {
     title: string;
     description: string;
     image: string;
+    id: number;
 }
 
 export function CardsSkill() {
@@ -16,17 +17,20 @@ export function CardsSkill() {
             {
                 title: 'Analise os dados',
                 description: 'Faça a análise dos dados do seu negócio e evite complicações que ocorrem por decisões mal analisadas',
-                image: ''
+                image: '',
+                id: 1
             },
             {
                 title: 'Conhecemos o problema, temos a solução',
                 description: 'Entendemos os problemas que ocorrem sem uma análise profissional e sabemos que existem Insights valiosos escondidos nos seus dados',
-                image: ''
+                image: '',
+                id: 2
             },
             {
                 title: 'Tome decisões',
                 description: 'Se torne um tomador de decisões  confiante  com o poder dos dados',
-                image: ''
+                image: '',
+                id: 3
             },
         ])
     }, []);
@@ -37,7 +41,7 @@ export function CardsSkill() {
                 {
                     infoCards.map((infoCard) => (
 
-                        <div className="col">
+                        <div key={infoCard.id} className="col">
                             <div  className={`card h-100 ${styles.cardSkill}`}>
                                 <div className="card-body">
                                     <div className={styles.titleContainer}>

@@ -30,4 +30,16 @@
   
   .inputField {
     height: 30px;
+    border: 1px solid #7979d4;
+    border-radius: 4px;
+  }
+  
+  .inputFieldTextArea {
+    height: 150px;
+    border: 1px solid #7979d4;
+    border-radius: 4px;
+  }
+
+  .title {
+      color: black
   }
