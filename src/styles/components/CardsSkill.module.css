@@ -4,6 +4,15 @@
     width: 100%;
     justify-content: space-evenly;    
 }
+
+.cardTitle {
+  font-size: 1.8rem;
+  font-weight: bold;;
+}
+.cardDescription {
+  font-size: 1.5rem;
+  margin: 20px;
+}
 @media(min-width: 768px) {
   .titleContainer {
     height: 80px;

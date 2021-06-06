@@ -41,9 +41,9 @@ export function CardsSkill() {
                             <div  className={`card h-100 ${styles.cardSkill}`}>
                                 <div className="card-body">
                                     <div className={styles.titleContainer}>
-                                        <h4 className="card-title">{infoCard.title}</h4> 
+                                        <h4 className={styles.cardTitle}>{infoCard.title}</h4> 
                                     </div>
-                                    <p className="card-text">{infoCard.description}</p>
+                                    <p className={styles.cardDescription}>{infoCard.description}</p>
                                 </div>                               
                             </div>
                         </div>
