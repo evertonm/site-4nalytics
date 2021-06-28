@@ -24,9 +24,9 @@ export function Header() {
                     <Link href="/">
                         <a>Home</a>
                     </Link>
-                    <Link href="/">
+                   {/*  <Link href="/">
                         <a >Blog</a>
-                    </Link>
+                    </Link> */}
                     <Link href="/contact">
                         <a >Contato</a>
                     </Link>
@@ -50,9 +50,9 @@ export function Header() {
                         <Link href="/">
                             <a className={styles.sideMenuItems}>Home</a>
                         </Link>
-                        <Link href="/">
+                       {/*  <Link href="/">
                             <a className={styles.sideMenuItems}>Blog</a>
-                        </Link>
+                        </Link> */}
                         <Link href="/contact">
                             <a className={styles.sideMenuItems}>Contato</a>
                         </Link>
