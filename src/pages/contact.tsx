@@ -42,17 +42,17 @@ export default function Contact() {
                     <div className={styles.title}>Bem-vindo!</div>
                     <div className={styles.subtitle}>Entre em contato com nossa equipe</div>
                     <div className={`${styles.inputContainer} ${styles.ic1} `}>
-                        <input id="name" className={styles.input} type="text" placeholder=" " />
+                        <input id="name" name="name" className={styles.input} type="text" placeholder=" " />
                         <div className={styles.cut}></div>
                         <label htmlFor="name" className={styles.placeholder}>Nome</label>
                     </div>
                     <div className={`${styles.inputContainer}`}>
-                        <input id="email" className={styles.input} type="email" placeholder=" " />
+                        <input id="email" name="email" className={styles.input} type="email" placeholder=" " />
                         <div className={styles.cut}></div>
                         <label htmlFor="email" className={styles.placeholder}>E-mail</label>
                     </div>
                     <div className={`${styles.textarea} ${styles.inputContainer}`}>
-                        <textarea id="message" className={`${styles.input}`}  placeholder=" " rows={5} cols={5}/>
+                        <textarea id="message" name="message" className={`${styles.input}`}  placeholder=" " rows={5} cols={5}/>
                         <div className={`${styles.cut} ${styles.cutShort}`}></div>
                         <label htmlFor="message" className={styles.placeholder}>Mensagem</label>
                     </div>
