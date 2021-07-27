@@ -2,8 +2,6 @@ import { Header } from '../components/Header';
 import { SimpleDescription } from '../components/SimpleDescription';
 import { Skills } from '../components/Skills';
 
-import { GetServerSideProps } from 'next';
-
 interface HomeProps {
   level: number
   currentExperience: number;
